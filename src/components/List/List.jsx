@@ -26,6 +26,16 @@ const List = () => {
     setList(tasksFiltered)
   }
 
+  function handleToggleTaskCompletion(id) {
+    const newTasks = list.map(task => task.id === id ? {
+      ...task, isComplete : !task.isComplete
+    }: task)
+
+    setList(newTasks)
+  }
+
+
+
   return (
     <>
       <section className="list">
@@ -63,7 +73,7 @@ const List = () => {
                     <input
                       type="checkbox"
                       checked={task.isComplete}
-                      onClick={() => {}}
+                      onClick={() => handleToggleTaskCompletion(task.id)}
                       readOnly
                     />
                     <span className="checkmark"></span>
