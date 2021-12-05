@@ -1,10 +1,9 @@
-import Menu from '../components/Menu/Menu.jsx'
+import Profile from '../components/Profile/Profile.jsx'
 
 const Home = () => {
-  return(
+  return (
     <>
-    <Menu />
-    <h1>Home</h1>
+      <Profile />
     </>
   )
 }

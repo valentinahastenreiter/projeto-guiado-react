@@ -64,7 +64,7 @@ const List = () => {
         <main>
           <ul>
             {list.map(task => (
-              <li key={task.id}>
+              <li className='lista' key={task.id}>
                 <div
                   className={task.isComplete ? 'completed' : ''}
                   data-testid="task"

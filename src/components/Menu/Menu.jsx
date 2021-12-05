@@ -1,13 +1,17 @@
 import { Link } from 'react-router-dom'
+import './menu.styles.css'
 
 const Menu = () => {
   return(
-    <ul>
+    <ul className='menu'>
       <li>
         <Link to='/'>Home</Link>
       </li>
       <li>
-        <Link to='/lista'>Lista de Tarefas</Link>
+        <Link to='/lista'>Projeto To Do List</Link>
+      </li>
+      <li>
+        <Link to='/projects'>Outros Projetos</Link>
       </li>
     </ul>
   )

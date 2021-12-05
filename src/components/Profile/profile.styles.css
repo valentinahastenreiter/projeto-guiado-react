@@ -1,0 +1,29 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1024px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 100px auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.profile img {
+  height: 256px;
+  width: auto;
+}
+
+.profileInfo {
+  padding: 20px;
+}
+
+.nameDescription {
+  opacity: 0.5;
+  font-size: 1em;
+}
+
+.profile img {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}

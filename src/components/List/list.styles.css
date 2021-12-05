@@ -62,7 +62,7 @@ ul {
   list-style: none;
 }
 
-li {
+.lista {
   display: flex;
   justify-content: space-between;
   align-items: center;

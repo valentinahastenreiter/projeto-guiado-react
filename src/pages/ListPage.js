@@ -1,13 +1,11 @@
-import Menu from '../components/Menu/Menu.jsx'
 import Header from '../components/Header/Header.jsx'
 import List from '../components/List/List.jsx'
 
 const ListPage = () => {
-  return(
+  return (
     <>
-    <Menu />
-    <Header />
-    <List />
+      <Header />
+      <List />
     </>
   )
 }
